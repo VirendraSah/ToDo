@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.main-outer{
+    max-width: 100%;
+    padding: 20px;
+}
+.InputBar{
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 30px 10px;
+}
+form{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+}
+form input{
+    flex-grow: 1;
+    padding: 20px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+form button{
+    width: max-content;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 0px 20px;
+}
+.InputBar ul{
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.InputBar ul li{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 20px;
+    background: yellow;
+    border-radius: 10px;
+    position: relative;
+    word-wrap: break-word;
+}
+.InputBar ul li span{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
